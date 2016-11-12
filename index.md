@@ -1,36 +1,20 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Hey, buddy, what you're looking for ?
+tagline: ""
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
 ## Sample Posts
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+Novembre 13th, 2016.
 
-    $ rm -rf _posts/core-samples
+Some notes I leave here
+As a side note, this blog is still in pure ALPHA mode :)
 
-Here's a sample "posts list".
+Be more than indulgent, please.
+I just copied some notes to share them - and to be sure they are somewhere on Internet ;)
+
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,8 +22,16 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
 
+
+##### This blog is running on Jekyll/bootstrap with jekyllbootstrap
+I use the bootswatch theme.
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/dbtek/jekyll-bootstrap-3)!
 
+<!--
 
+Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+
+[Jekyll Bootstrap](http://jekyllbootstrap.com)
+
+-->
