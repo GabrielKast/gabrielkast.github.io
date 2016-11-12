@@ -57,7 +57,7 @@ mini batch  : train 1000 at the time.
 
 
 
-=== Let's add deep learning
+### Let's add deep learning
 Add layers
 
 At the beginning, variable with random. 
@@ -83,12 +83,12 @@ Means you're going too fast, you have to go slower (learning_rate)
 The righ approch : start fast and then slow down From : 0.003 to 0.0001
 
 
-=== Overfitting
+### Overfitting
 With that data, on train , you do no mistake :)
 
 But not good for test data :( .  
 
-==== Let's add regularization
+#### Let's add regularization
  * dropout method
  shoot Neurones when you train the data. By random. At one layer, train the NN, then shoot x % of the NN
  Use a dropout after each layer. Not on the inputs.
@@ -113,7 +113,7 @@ But still 98% of accuracy. Never 100% ?
 
 
 Maybe because we flatten the images
-== Convolution layer
+## Convolution layer
 To use the shape back
 Don't flatten the image
 each neuron scan the image 4x4 with a layer of 3 => Weigth(4 x 4 x 3)
@@ -126,7 +126,7 @@ Boiling the information down: Convolutional subsampling
 Convolution layers : what people use now
 
 
-==== Convolutional NN
+#### Convolutional NN
 Train is ok but test is going up... => use dropout and more channels.
 
 Hint : first give no freedom to the NN, then free him a little bit. More channels, 
@@ -138,10 +138,10 @@ With dropout you win 2% with test loss :)
 Last trick on 
 
 
-=== batch normalization : the super power :)
+### Batch normalization : the super power :)
 Better regularization than dropout
 
-==== Example:
+#### Example:
 Two sets of data but one is 0-1 and one 0-2 
 Let's modify it : principal component Analysis
 Please whiten your data. Data whitening.
@@ -193,7 +193,7 @@ To see the tf.learn part too
 To learn metrics : yo ucan use MetricPsec in the estimator. The monitor monitors the computation, and then will output stats
 
 
-== Recurrent Neural Networks
+## Recurrent Neural Networks
 After a layer, use the previous input
 State machine
 Can fix Weight and Biases
@@ -230,12 +230,14 @@ Apre midi
 Mathieu Ancelin
 Sébastien Prunier
 
+[Here is the github of that workshop](https://github.com/react-bootcamp/react-101)
 
-Souci install avec npm etc.. 
+Souci install avec npm. Vu la "qualité" du réseau, des tas de packages s'installent mal, beaucoup de packages vides. J'ai une config npm un peu foireuse. (note j'arriverai à la nettoyer le lendemain, chez moi, patiemment. En supprimant la dizaine de fichiers vus comme "vides" par npm)
+
 De plus on commence avec un utilitaire creat-react-app qui marche pas pour moi
 Souci de réseau
-Et javascript v6 c'est gentil mais il faut prévenir
-ça me saoule, je me tire
+De plus une syntaxe javascript v6 par défaut. C'est un choix, mais je ne pense pas que ce soit le choix le plus pertinent pour démarrer un outil JS
+Sachant que je vais galérer dans la config, avec un ordi qui a un accès réseau instable, je préfère m'en aller
 
 = Docker Nuts & Bolts
 
@@ -267,24 +269,4 @@ You can use docker to open an IDE, go Docker all the way. Too bad, the demo did 
 
 
 Resources : github chanezon docker-tips
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
